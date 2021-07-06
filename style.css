@@ -2,13 +2,12 @@ body{
     font-family: 'Poppins', sans-serif;
     }
 h1{
-        font-size: 50px;
+    font-size: 50px;
         }
-.greenyellow-color
-{
+.greenyellow-color{
     color: greenyellow;
 }
-.Our-recipies{
+.our-recipies{
     text-align: center;
 }
 .flexible-container{
@@ -20,7 +19,7 @@ h1{
     padding-left: 15%;
     }
 .half-width img{
-    width: 80%;
+    width: 100%;
 }
 .link-button{
     text-decoration: none;
@@ -30,20 +29,42 @@ h1{
     font-weight: 700;
     border-radius: 50px;
 }
-.recipe{
-    width: 40%;
+.our-recipies{
+    text-align: center;
+    align-items: center;
+}
+.food-recipe{
+    width: 250px;
+    text-align: center;
     margin-left: 5%;
     margin-right: 5%;
+    margin-top: 30px;
     border-radius: 10%;
+    padding: 5%;
     padding-left: 20px;
     box-shadow: 10px 10px 50px gray;
 }
+.food-recipe img{
+    width: 100%;
+    height: auto;
+}
 #pasta{
+    border-left: 7px;
     background-image: url(pasta.png);
 }
-#desert{
-    background-image: url(desert.png);
+#french-toast{
+    border-left: 7px;
+    background-image: url(breakfast.png);
 }
 #salad{
+    border-left: 7px;
     background-image: url(salad.png);
+}
+.container{
+    width: 250px;
+    text-align: center;
+    margin-top: 30px;
+    border-radius: 10%;
+    padding-left: 20px;
+    box-shadow: 10px 10px 50px gray;
 }
